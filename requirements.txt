@@ -1,0 +1,19 @@
+# requirements.txt
+streamlit>=1.28.0
+sentence-transformers>=2.2.0
+chromadb>=0.4.0
+ollama>=0.1.0
+pandas>=1.5.0
+GitPython>=3.1.0
+pygments>=2.15.0
+python-magic>=0.4.0
+pathlib>=1.0.0
+
+# Additional dependencies for code parsing
+tokenize-tools>=0.1.0
+
+# Optional: For better performance
+faiss-cpu>=1.7.0
+
+# For deployment
+gunicorn>=21.0.0
